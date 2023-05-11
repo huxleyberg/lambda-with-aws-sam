@@ -36,7 +36,7 @@ jobs:
       - name: Build app with SAM
         run: sam build
 
-      - name: Upaload sam files for S3
+      - name: Upload sam files for S3
         run: |
           sam package --template-file .aws-sam/build/template.yaml \
           --s3-bucket lambda-resources-huxleyberg \
