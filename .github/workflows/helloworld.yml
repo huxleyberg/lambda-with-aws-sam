@@ -1,4 +1,4 @@
-name: hello - World
+name: aws sam delpoy
 on:
   push:
     branches: [ main ]
